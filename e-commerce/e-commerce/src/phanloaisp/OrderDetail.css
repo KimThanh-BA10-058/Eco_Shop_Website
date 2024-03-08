@@ -1,0 +1,77 @@
+/* order-detail.css */
+
+/* Container */
+.order-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Order Header */
+  .order-header {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Order Item */
+  .order-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .order-item .product-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .order-item .product-details .product-info {
+    flex-grow: 1;
+    margin-right: 20px;
+  }
+  
+  .order-item .product-details .product-image {
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+  }
+  
+  .order-item .product-details img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .order-item .product-price {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  .order-item .cancel-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .order-item .cancel-button:hover {
+    background-color: #c0392b;
+  }
+  
